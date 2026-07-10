@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Uniboard</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #1d1d1f;
+            --link-color: #007aff;
+            --border-color: #e5e5ea;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #000000;
+                --text-color: #f5f5f7;
+                --link-color: #0a84ff;
+                --border-color: #38383a;
+            }
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px 24px;
+            max-width: 800px;
+            margin: 0 auto;
+            -webkit-font-smoothing: antialiased;
+        }
+        h1 {
+            font-size: 2em;
+            font-weight: 700;
+            margin-bottom: 0.2em;
+        }
+        h2 {
+            font-size: 1.3em;
+            font-weight: 600;
+            margin-top: 1.8em;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        p, li {
+            font-size: 1rem;
+            margin-bottom: 1em;
+        }
+        ul {
+            margin-bottom: 1.5em;
+            padding-left: 20px;
+        }
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .date {
+            color: #86868b;
+            font-size: 0.9em;
+            margin-bottom: 2em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Privacy Policy</h1>
+    <p class="date"><strong>Effective Date:</strong> 10-07-2026</p>
+
+    <p>This Privacy Policy explains how Uniboard ("we", "our", or "us") collects, uses, and protects your information when you use our iOS custom keyboard and font builder application.</p>
+
+    <h2>1. Data We DO NOT Collect (Your Keystrokes)</h2>
+    <p>As a keyboard app, our absolute priority is your privacy. <strong>We do not collect, transmit, or store the text you type.</strong> Everything you type using the Uniboard keyboard stays securely on your device.</p>
+
+    <h2>2. Local Text Prediction (Bigrams)</h2>
+    <p>Uniboard features a predictive text engine designed to improve your typing experience. This engine learns from your typing patterns (bigrams) entirely <strong>locally on your device</strong>. None of this predictive data or your personalized typing history is ever sent to our servers, nor is it shared with any third parties.</p>
+
+    <h2>3. Data We Collect</h2>
+    <p>To maintain the app, understand feature usage, and provide the font-building ecosystem, we collect strictly limited, non-personal data:</p>
+    <ul>
+        <li><strong>Usage Statistics (Telemetry):</strong> We collect anonymous analytics regarding which fonts, character sets, and modifiers are most frequently used. This helps us optimize the user interface and improve the app's core features.</li>
+        <li><strong>User-Generated Content (Custom Fonts & Sets):</strong> When you use our builder to create custom fonts, modifiers, or symbol sets, this content is synchronized with our servers so it can be utilized across the app's ecosystem.
+            <br><br><strong>The "Make Private" Exception:</strong> If you select the "Make Private" option while creating a font, modifier, or set, that specific content will be saved strictly locally on your device and will <strong>never</strong> be uploaded to our servers.</li>
+    </ul>
+
+    <h2>4. How We Use Your Data</h2>
+    <p>The limited data we collect is used exclusively to:</p>
+    <ul>
+        <li>Ensure the core functionality of the Uniboard builder and keyboard.</li>
+        <li>Analyze generalized usage trends to improve the app.</li>
+        <li>Host and manage non-private, user-generated custom fonts and character sets.</li>
+    </ul>
+
+    <h2>5. Security</h2>
+    <p>We implement industry-standard security measures to protect the telemetry and public user-generated data stored on our servers against unauthorized access, alteration, disclosure, or destruction.</p>
+
+    <h2>6. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy periodically. We will notify you of any significant changes by updating the "Effective Date" at the top of this page.</p>
+
+    <h2>7. Contact Us</h2>
+    <p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us at: <a href="mailto:[Your Support Email]">[Your Support Email]</a></p>
+
+</body>
+</html>
